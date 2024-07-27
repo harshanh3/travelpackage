@@ -1,0 +1,170 @@
+.container-img{
+    width: 100%;
+    top: 0;
+     /* position: fixed;  */
+}
+.stick{
+
+    margin-top: 320px;
+   position: relative;
+   background-color: white;
+}
+#nav1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.text{
+   text-align: center;
+   margin-top: -550px;
+   margin-right: -100px;
+}
+#tr1{
+    font-family: "Dancing Script", cursive;
+}
+#tr2{
+    font-family: "Dancing Script", cursive;
+}
+button{
+    color: white;
+    background-color: green;
+}
+.btn{
+    margin-left: 280px;
+}
+.Honeymoon{
+
+    margin-top: 380px;
+}
+h2{
+    text-align: center;
+}
+.more:hover{
+    background-color: red;
+}
+.more{
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 50px;
+   margin-left: 650px;
+}
+.spl{
+    background-color: lightcyan;
+}
+.card-img{
+    box-shadow: 5px 5px 20px black ;
+    overflow: hidden;
+}
+.intro{
+    height: 10px;
+    width: 224px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    opacity: 0;
+    bottom: 70px;
+    background: rgb(27, 27, 27, .8);
+    color: white;
+    
+}
+.p-1{
+    visibility: hidden;
+    opacity: 0;
+}
+.book{
+   margin-left: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    visibility: hidden;
+opacity: 0;
+}
+.name{
+visibility: hidden;
+opacity: 0;
+}
+.card-2:hover{
+    cursor: pointer;
+}
+.card-2:hover .intro{
+    height: 180px;
+    opacity: 1;
+    bottom: 80px;
+    background: rgba(27,27, 27, 0.8);
+}
+.card-2:hover .name{
+    opacity: 1;
+    visibility: visible;
+}
+.card-2:hover .book{
+    opacity: 1;
+    visibility: visible;
+}
+.card-2:hover .p-1{
+    opacity: 1;
+    visibility: visible;
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-color: #007bff; /* Change to the color you want */
+  }
+.more-1{
+    margin-left: 0px;
+}
+.k-boat{
+   margin-bottom: 60px;
+   color:white;
+}
+.grid{
+     background-color: lightcyan; 
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+   
+}
+.learn{
+    margin-left: 50px;
+    text-decoration: none;
+}
+.text-p{
+    color: red;
+    font-size: 40px;
+    font-family: "Caveat", cursive;
+}
+.review{
+    text-align: center;
+}
+.icons{
+    font-size: 60px;
+    color: rgb(247, 247, 13);
+}
+.imgpg{
+    margin-top: -65px;
+}
+.iconz{
+margin-left: 10px;
+    font-size: 30px;
+}
+@media screen and (max-width: 750px){
+    .btn{
+     margin-left: 80px;
+    }
+    .more{
+        margin-left: 80px;
+    }
+    .img-2{
+        margin-top: 1px;
+        margin-left: 50px;
+    }
+    .img-3{
+        margin-right: 45px;
+    }
+}
